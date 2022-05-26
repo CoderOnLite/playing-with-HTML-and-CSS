@@ -1,0 +1,132 @@
+body{
+  background-color: rgb(47, 45, 48);
+  position: absolute;
+  size: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes move {
+ from{width: 100%;}
+ to{width: 0%;}
+}
+@keyframes inn{
+  from{ width:100%; color: chartreuse;}
+  to{ width:0%; color: fuchsia;}
+}
+.inn{
+  background-color: darkviolet;
+  height: 4px;
+  animation-name: inn;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+.sal1{
+  width: 27%;
+}
+.sal6{
+  width: 43%;
+  display: inline-block;
+}
+.sal10{
+  width: 39%;
+  display:inline-block;
+  position: absolute;
+  left: auto;
+}
+.img{
+  margin-top: 12%;
+  height: 250px;
+  width: 250px;
+  border: 4px;
+  border-style: double;
+  border-color: rgb(220, 67, 20);
+  display: block;
+  position: relative;
+  left: 40%;
+  border-radius: 50%;
+}
+.move{
+  height: 4px;
+  background-color: blueviolet;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.a1{
+  width: 39%;
+  line-height:1.4;
+  color: white;
+  font-size: 100%;
+  text-align: center;
+}
+.tom{
+  font-weight: bolder;
+  color: blueviolet;
+  font-size: 170%;
+}
+.f{
+  color: blueviolet;
+  font-weight: bold;
+}
+.top{
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: right;
+  padding: 29px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+b{
+  color: rgb(243, 94, 24);
+}
+#about{
+  color: white;
+  text-decoration: underline;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 2px 3px 4px white;
+}
+.me{
+  color: blueviolet;
+}
+.text{
+  color: rgb(255, 115, 0);
+  font-style: italic;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+#works{
+  margin-top: 10%;
+  border-radius: 25%;
+  color: white;
+  font-size: 7vh;
+  padding: 2%;
+  display: inline-block;
+  border: 5px;
+  border-style: dotted;
+  border-color: blueviolet;
+}
+.fb{
+  width: 3%;
+  margin-left: 5%;
+   margin-right: 2%;
+}
+.ig{
+  width: 3%;
+  margin-right: 2%;
+}
+.mail{
+  width: 3%;
+  margin-right: 2%;
+}
+.ph{
+  width: 3%;
+}
+footer{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
